@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Alysa Maya</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="text-[#f5f0e6] scroll-smooth">
+
+<nav class="fixed w-full z-50 backdrop-blur-md bg-[#081624]/80 border-b border-[#f5f0e6]/10">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+        <h1 class="font-bold text-[#f5f0e6] text-xl">AMTPI</h1>
+
+        <div class="space-x-6 hidden md:block font-medium">
+            <a href="#home" class="hover:text-[#d6c7a1]">Home</a>
+            <a href="#about" class="hover:text-[#d6c7a1]">About</a>
+            <a href="#education" class="hover:text-[#d6c7a1]">Education</a>
+            <a href="#projects" class="hover:text-[#d6c7a1]">Projects</a>
+        </div>
+    </div>
+</nav>
+
+<section id="home" class="min-h-screen flex items-center pt-20 bg-[#0b1b2b]">
+    <div class="container mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
+
+        <div>
+            <h1 class="text-5xl md:text-6xl font-extrabold mb-4 leading-tight">
+                Halo 👋, saya <br>
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#f5f0e6] to-[#d6c7a1]">
+                    Alysa Maya
+                </span>
+            </h1>
+
+            <p class="text-[#d6c7a1] mb-6">
+                Mahasiswi Sistem Informasi yang sedang belajar pengembangan website dan database.
+            </p>
+
+            <a href="#projects" class="bg-[#f5f0e6] text-[#0b1b2b] px-6 py-3 rounded-xl shadow hover:bg-[#d6c7a1] transition">
+                Lihat Project
+            </a>
+        </div>
+
+        <div class="flex justify-center">
+            <div class="w-60 h-60 rounded-full overflow-hidden border border-[#f5f0e6]/10">
+                <img src="allfoto/pasfoto.jpeg" class="w-full h-full object-cover">
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section id="about" class="py-20 bg-[#0f2236]">
+    <div class="container mx-auto px-6">
+
+        <h2 class="text-3xl font-bold text-center mb-12">About Me</h2>
+
+        <div class="flex flex-col md:flex-row items-center gap-10">
+
+             <div class="md:w-1/2 flex justify-center">
+                <img src="allfoto/pasfoto.jpeg"
+                    class="w-64 h-64 md:w-80 md:h-80 rounded-full object-cover border border-[#f5f0e6]/10">
+            </div>
+
+            <div class="md:w-1/2 text-center md:text-left">
+                <p class="text-[#d6c7a1] mb-6">
+                    Saya adalah mahasiswa Sistem Informasi yang sedang belajar pemrograman, khususnya dalam pengembangan website dan database.
+                </p>
+
+                <div class="grid md:grid-cols-2 gap-4">
+
+                    <div class="bg-[#081624] border border-[#f5f0e6]/10 p-4 rounded-xl">
+                        <h3 class="font-bold">Web Development</h3>
+                        <p class="text-sm text-[#d6c7a1]">HTML, CSS, Tailwind</p>
+                    </div>
+
+                    <div class="bg-[#081624] border border-[#f5f0e6]/10 p-4 rounded-xl">
+                        <h3 class="font-bold">Database</h3>
+                        <p class="text-sm text-[#d6c7a1]">MySQL</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="education" class="py-20 bg-[#0b1b2b]">
+    <div class="container mx-auto px-6">
+
+        <h2 class="text-3xl font-bold text-center mb-10">Education</h2>
+
+        <div class="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+
+            <div class="bg-[#0f2236] border border-[#f5f0e6]/10 p-6 rounded-xl">
+                <h3 class="font-bold">Universitas Trunojoyo Madura</h3>
+                <p class="text-[#d6c7a1] text-sm">2025 - Sekarang</p>
+                <p class="text-sm text-[#d6c7a1]">S1 Sistem Informasi</p>
+            </div>
+
+            <div class="bg-[#0f2236] border border-[#f5f0e6]/10 p-6 rounded-xl">
+                <h3 class="font-bold">SMA Negeri Tinangkung</h3>
+                <p class="text-[#d6c7a1] text-sm">2022 - 2025</p>
+                <p class="text-sm text-[#d6c7a1]">Jurusan IPA</p>
+            </div>
+
+            <div class="bg-[#0f2236] border border-[#f5f0e6]/10 p-6 rounded-xl">
+                <h3 class="font-bold">SMPN 1 Tinangkung </h3>
+                <P class="text-[#d6c7a1] text-sm">2020-2022</P>
+                <p  class="text-sm text-[#d6c7a1]">LULUS</p>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="projects" class="py-20 bg-[#102a43]">
+    <div class="container mx-auto px-6">
+
+        <h2 class="text-3xl font-bold text-center mb-10">Projects</h2>
+
+        <div class="grid md:grid-cols-3 gap-6">
+
+            <div class="bg-[#081624] border border-[#f5f0e6]/10 rounded-xl overflow-hidden hover:-translate-y-2 transition">
+                <img src="allfoto/webbangkep.png" class="h-40 w-full object-cover">
+                <div class="p-4">
+                    <h3 class="font-bold">Landing page Kabupaten</h3>
+                    <p class="text-sm text-[#d6c7a1]">Website informasi Kab. Bangkep</p>
+                </div>
+            </div>
+
+            <div class="bg-[#081624] border border-[#f5f0e6]/10 rounded-xl overflow-hidden hover:-translate-y-2 transition">
+                <img src="allfoto/jaemin.png" class="h-40 w-full object-cover">
+                <div class="p-4">
+                    <h3 class="font-bold">Landing page ISNTREE</h3>
+                    <p class="text-sm text-[#d6c7a1]">Skincare ISNTREE</p>
+                </div>
+            </div>
+
+            <div class="bg-[#081624] border border-[#f5f0e6]/10 rounded-xl overflow-hidden hover:-translate-y-2 transition">
+                <img src="allfoto/portofolio.png" class="h-40 w-full object-cover">
+                <div class="p-4">
+                    <h3 class="font-bold">Website Portofolio</h3>
+                    <p class="text-sm text-[#d6c7a1]">Website pribadi</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<footer class="text-center py-6 bg-[#081624] text-[#d6c7a1] border-t border-[#f5f0e6]/10">
+    © 2026 Alysa Maya
+</footer>
+
+</body>
+</html>
+
