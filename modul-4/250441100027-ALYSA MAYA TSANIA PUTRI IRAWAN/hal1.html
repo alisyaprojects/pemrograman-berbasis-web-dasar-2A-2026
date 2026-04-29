@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login Page</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body class="font-sans">
+
+<div class="flex h-screen">
+
+  <div class="w-[60%] bg-[#5E7AC4] text-white flex flex-col justify-center items-center px-10">
+
+    <div class="max-w-sm">
+
+      <h1 class="text-4xl font-bold mb-6 leading-snug">
+        Hello Prospective Students
+      </h1>
+
+      <img src="UTS/gambar_login page.png" class="w-full max-w-[480px]">
+
+      <p class="text-sm opacity-90 leading-relaxed">
+        Unlock your professional potential. Learn from industry leaders and stay ahead of the competition.
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="w-[40%] bg-gray-100 flex items-center justify-center">
+
+    <div class="bg-white p-8 rounded-xl shadow-lg w-[350px]">
+      <button id="mode-toggle" class="text-xl text-gray-600 hover:text-[#3852B4] transition cursor-pointer">
+          <i id="icon-mode" class="fas fa-moon"></i>
+      </button>
+
+      <h2 class="text-center font-bold text-lg mb-2">
+        LOGIN PAGE
+      </h2>
+
+      <p class="text-center text-sm text-gray-500 mb-6">
+        Masukkan Username dan Password Anda
+      </p>
+
+      <form id="login-form" class="flex flex-col gap-4">
+        <input type="email" id="email" placeholder="Email Address"
+          class="border rounded-lg px-4 py-2 focus:ring-2 focus:ring-[#5E7AC4] ">
+
+        <input type="password" id="password" placeholder="Password"
+          class="border rounded-lg px-4 py-2 focus:ring-2 focus:ring-[#5E7AC4]">
+
+        <button  type="submit" class="bg-[#5E7AC4] text-white py-2 rounded-lg">
+          Login
+        </button>
+      </form>
+
+      <div class="text-center text-gray-400 my-4 text-sm">
+        Or Login With
+      </div>
+
+      <button class="flex items-center justify-center gap-2 border rounded-lg py-2 w-full">
+        <img src="https://www.svgrepo.com/show/475656/google-color.svg" class="w-5">
+        Sign in with Google
+      </button>
+    </div>
+  </div>
+</div>
+<script src="script.js"></script> 
+<a href="hal2.html"></a>
+</body>
+</html>

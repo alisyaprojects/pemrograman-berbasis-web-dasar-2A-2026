@@ -1,0 +1,51 @@
+:root {
+    --bg-body: #f9fafb;
+    --bg-card: #ffffff;
+    --bg-nav: #ffffff;
+    --bg-secondary: #f3f4f6;
+    --text-main: #1f2937;
+    --text-muted: #6b7280;
+}
+
+body.dark-mode {
+    --bg-body: #111827;      
+    --bg-secondary: #1f2937; 
+    --bg-card: #374151;      
+    --bg-nav: #1f2937;
+    --text-main: #f9fafb;
+    --text-muted: #9ca3af;
+}
+
+body {
+    background-color: var(--bg-body);
+    color: var(--text-main);
+}
+
+body.dark-mode .bg-white, 
+body.dark-mode nav {
+    background-color: var(--bg-nav) !important;
+}
+
+body.dark-mode .card,
+body.dark-mode .bg-card {
+    background-color: var(--bg-card) !important;
+}
+
+body.dark-mode .bg-gray-100,
+body.dark-mode .bg-gray-50 {
+    background-color: var(--bg-secondary) !important;
+}
+
+body.dark-mode p, 
+body.dark-mode h1, 
+body.dark-mode h2, 
+body.dark-mode h3,
+body.dark-mode span,
+body.dark-mode ul li a {
+    color: var(--text-main) !important;
+}
+
+body.dark-mode .text-gray-500,
+body.dark-mode .text-gray-600 {
+    color: var(--text-muted) !important;
+}
